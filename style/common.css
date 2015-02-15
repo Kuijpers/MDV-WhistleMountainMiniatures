@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	text-align			:		center;
+	height				:		800px;
+	margin				:		0px;
+	padding				:		0px;
+	background-image	:		url(../images/bg.png);
+	background-repeat	:		repeat;
+	z-index				:		1;
+}
+
+div.container{
+	width				:		auto;
+	height				:		800px;
+	margin				:		0px auto;
+	padding				:		0px;
+	float				:		left;
+	z-index				:		2;
+}
+
+div.top{
+	width				:		auto;
+	min-width			:		100%;
+	height				:		199px;
+	margin				:		0 0 0 0;
+	background-color	:		#2347a0;
+	background-image	:		url(../images/top_bg.png);
+	background-repeat	:		repeat-x;
+	float				:		left;
+	position			:		absolute;
+	z-index				:		10;
+}
+
+div.toplogo{
+	width				:		525px;
+	height				:		400px;
+	position			:		absolute;
+	margin				:		0 0 0 0;
+	background-image	:		url(../images/vlak_logo.png);
+	background-repeat	:		no-repeat;
+	z-index				:		11;
+	*margin-left		:		-1225px;					/* IE hack*/
+	*border				:		1px solid red;				/* IE hack*/
+}
+
+div.top_name{
+	width				:		765px;
+	height				:		60px;
+	margin				:		132px 0 0 450px;
+	background-image	:		url(../images/top_name.png);
+	background-repeat	:		no-repeat;
+	*float				:		left;						/* IE hack*/
+	*z-index			:		3;
+	
+}
+
+div.overall_body{
+	width				:		100%;
+	height				:		580px;
+	margin				:		199px 0 0 0;
+	float				:		left;
+	position			:		absolute;
+	*z-index			:		4;							/* IE hack*/
+}
+div.sidemenu{
+	width				:		500px;
+	height				:		600px;
+	margin				:		0 0 0 0;
+	position			:		relative;
+	float				:		left;
+	*z-index			:		5;							/* IE hack*/
+}
+
+div.menu_image{
+	width				:		375px;
+	height				:		600px;
+	float				:		left;
+	position			:		relative;
+	*z-index			:		6;							/* IE hack*/
+}
+
+div.menu{
+	width				:		250px;
+	height				:		600px;
+	position			:		relative;
+	background-image	:		url(../images/menu_bg.png);
+	background-repeat	:		repeat-y;
+	margin-left			:		300px;
+	*margin				:		0 0 0 -140px;				/* IE hack*/
+	*z-index			:		0;							/* IE hack*/
+	
+	
+}
+
+
+div.center_body{
+	width				:		auto;
+	height				:		580px;
+	margin				:		15px 0 0 50px;
+	background-image	:		url(../images/logo_body.png);
+	background-repeat	:		no-repeat;
+	background-position	:		bottom right;
+	float				:		left;
+	color				:		#333366;
+	font-size			:		18px;
+	position			:		absolute;
+	*z-index			:		8;							/* IE hack*/
+}
